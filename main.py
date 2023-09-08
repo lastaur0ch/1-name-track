@@ -14,4 +14,4 @@ async def root():
 
 @app.get("/api/")
 async def read_item(slack_name: str, track: str):
-    return {"slack_name": slack_name, "current_day": x.strftime("%A"), "utc_time": f"{x.replace(microsecond=0)}Z", "track": track, "github_file_url": "https://github.com/username/repo/blob/main/file_name.ext", "github_repo_url": "https://github.com/username/repo", "status_code": 200}
+    return {"slack_name": slack_name, "current_day": x.strftime("%A"), "utc_time": f"{x.replace(microsecond=0)}Z", "track": track, "github_file_url": "https://github.com/lastaur0ch/1-name-track/blob/main/main.py", "github_repo_url": "https://github.com/lastaur0ch/1-name-track", "status_code": 200}
